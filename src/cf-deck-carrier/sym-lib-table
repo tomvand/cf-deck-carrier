@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name crazyflie-exp)(type Legacy)(uri ${KIPRJMOD}/../lib/symbols/crazyflie-exp.lib)(options "")(descr ""))
+  (lib (name vusb)(type Legacy)(uri ${KIPRJMOD}/../lib/symbols/vusb.lib)(options "")(descr ""))
+  (lib (name maxim)(type Legacy)(uri ${KIPRJMOD}/../lib/symbols/maxim.lib)(options "")(descr ""))
 )
