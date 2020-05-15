@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name crazyflie-exp)(type Legacy)(uri ${KIPRJMOD}/../lib/symbols/crazyflie-exp.lib)(options "")(descr ""))
+)
