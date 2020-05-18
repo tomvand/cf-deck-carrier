@@ -540,17 +540,6 @@ Wire Wire Line
 	3950 3200 3400 3200
 Connection ~ 3950 3200
 $Comp
-L Interface_Expansion:PCA9536DP U2
-U 1 1 5ECBEE68
-P 3900 4400
-F 0 "U2" H 4200 4800 50  0000 C CNN
-F 1 "PCA9536DP" H 4200 4700 50  0000 C CNN
-F 2 "Package_SO:TSSOP-8_3x3mm_P0.65mm" H 4900 4050 50  0001 C CNN
-F 3 "http://www.nxp.com/documents/data_sheet/PCA9536.pdf" H 3700 2700 50  0001 C CNN
-	1    3900 4400
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0118
 U 1 1 5ECDBC6E
 P 3900 4800
@@ -842,5 +831,16 @@ F 2 "" H 1400 7300 50  0001 C CNN
 F 3 "" H 1400 7300 50  0001 C CNN
 	1    1400 7300
 	-1   0    0    1   
+$EndComp
+$Comp
+L Interface_Expansion:PCA9536D U2
+U 1 1 5EC599A5
+P 3900 4400
+F 0 "U2" H 4150 4800 50  0000 C CNN
+F 1 "PCA9536D" H 4150 4700 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4900 4050 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/PCA9536.pdf" H 3700 2700 50  0001 C CNN
+	1    3900 4400
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
