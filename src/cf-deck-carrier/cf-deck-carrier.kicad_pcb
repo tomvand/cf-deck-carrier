@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 1967)
+    (drawings 1970)
     (tracks 229)
     (zones 0)
     (modules 21)
@@ -27,7 +27,7 @@
     (33 F.Adhes user)
     (34 B.Paste user)
     (35 F.Paste user)
-    (36 B.SilkS user hide)
+    (36 B.SilkS user)
     (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
@@ -75,7 +75,7 @@
     (pad_to_paste_clearance_ratio -0.02)
     (aux_axis_origin 0 0)
     (grid_origin 139.001 97.00092)
-    (visible_elements FFFFFB7F)
+    (visible_elements FFFEFF7F)
     (pcbplotparams
       (layerselection 0x010f8_80000001)
       (usegerberextensions true)
@@ -1202,7 +1202,7 @@
     )
   )
 
-  (module bitcraze:EXP_ORIENTATION (layer F.Cu) (tedit 536CC48D) (tstamp 5EC317BC)
+  (module bitcraze:EXP_ORIENTATION (layer F.Cu) (tedit 536CC48D) (tstamp 5EC42154)
     (at 140.001 96.00092)
     (fp_text reference EXP_ORIENTATION (at 0 1.925) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1225,6 +1225,15 @@
     (fp_circle (center 0 0) (end 0.075 0.025) (layer F.SilkS) (width 0.15))
   )
 
+  (gr_text "Crazyflie 2 deck carrier" (at 137.001 97.00092 270) (layer F.SilkS)
+    (effects (font (size 1.2 1) (thickness 0.15)))
+  )
+  (gr_text FRONT (at 140.001 95.00092 270) (layer F.SilkS)
+    (effects (font (size 0.8 0.8) (thickness 0.15)) (justify right))
+  )
+  (gr_text UP (at 140.001 97.00092 270) (layer F.SilkS)
+    (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left))
+  )
   (gr_line (start 128.001 91.37592) (end 122.501 91.37592) (layer F.SilkS) (width 0.15))
   (gr_line (start 128.001 90.12592) (end 122.501 90.12592) (layer F.SilkS) (width 0.15))
   (gr_line (start 128.001 88.87592) (end 122.501 88.87592) (layer F.SilkS) (width 0.15))
@@ -3503,7 +3512,7 @@
   (segment (start 140.896 99.97592) (end 142.346 98.52592) (width 0.2032) (layer B.Cu) (net 24))
   (segment (start 140.251 99.97592) (end 140.896 99.97592) (width 0.2032) (layer B.Cu) (net 24))
 
-  (zone (net 6) (net_name VCC) (layer F.Cu) (tstamp 5EC40A6B) (hatch edge 0.508)
+  (zone (net 6) (net_name VCC) (layer F.Cu) (tstamp 5EC4200D) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -3816,7 +3825,7 @@
       )
     )
   )
-  (zone (net 3) (net_name GND) (layer In1.Cu) (tstamp 5EC40A68) (hatch edge 0.508)
+  (zone (net 3) (net_name GND) (layer In1.Cu) (tstamp 5EC4200A) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
