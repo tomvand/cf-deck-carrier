@@ -210,12 +210,12 @@ $EndComp
 $Comp
 L power:VCOM #PWR0107
 U 1 1 5EC0E0F9
-P 1750 1850
-F 0 "#PWR0107" H 1750 1700 50  0001 C CNN
-F 1 "VCOM" H 1765 2023 50  0000 C CNN
-F 2 "" H 1750 1850 50  0001 C CNN
-F 3 "" H 1750 1850 50  0001 C CNN
-	1    1750 1850
+P 2050 1850
+F 0 "#PWR0107" H 2050 1700 50  0001 C CNN
+F 1 "VCOM" H 2065 2023 50  0000 C CNN
+F 2 "" H 2050 1850 50  0001 C CNN
+F 3 "" H 2050 1850 50  0001 C CNN
+	1    2050 1850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -246,13 +246,13 @@ F 3 "~" H 1400 5000 50  0001 C CNN
 	1    1400 5000
 	-1   0    0    -1  
 $EndComp
-Text Label 1800 2800 2    50   ~ 0
-RX2
 Text Label 1800 2700 2    50   ~ 0
+RX2
+Text Label 1800 2800 2    50   ~ 0
 TX2
-Text Label 1800 2600 2    50   ~ 0
-RX1
 Text Label 1800 2500 2    50   ~ 0
+RX1
+Text Label 1800 2600 2    50   ~ 0
 TX1
 Wire Wire Line
 	1800 2500 1600 2500
@@ -278,11 +278,11 @@ Wire Wire Line
 	9300 2100 9500 2100
 Wire Wire Line
 	9300 2200 9500 2200
-Text Label 1850 3300 2    50   ~ 0
+Text Label 1850 3500 2    50   ~ 0
 SCK
 Text Label 1850 3400 2    50   ~ 0
 MISO
-Text Label 1850 3500 2    50   ~ 0
+Text Label 1850 3300 2    50   ~ 0
 MOSI
 Wire Wire Line
 	1850 3300 1600 3300
@@ -332,9 +332,9 @@ Wire Wire Line
 	9300 3000 9300 2900
 Wire Wire Line
 	9300 2900 9500 2900
-Text Label 1850 4050 2    50   ~ 0
-SDA
 Text Label 1850 4150 2    50   ~ 0
+SDA
+Text Label 1850 4050 2    50   ~ 0
 SCL
 Wire Wire Line
 	1850 4050 1600 4050
@@ -368,18 +368,16 @@ Wire Wire Line
 	8850 4650 8850 4750
 Wire Wire Line
 	8850 4750 9500 4750
-Text Label 1800 4800 2    50   ~ 0
-IO1
 Text Label 1800 4900 2    50   ~ 0
-IO2
+IO1
 Text Label 1800 5000 2    50   ~ 0
-IO3
+IO2
 Text Label 1800 5100 2    50   ~ 0
-IO4
+IO3
 Text Label 1800 5200 2    50   ~ 0
+IO4
+Text Label 1800 4800 2    50   ~ 0
 OW
-Wire Wire Line
-	1800 4800 1600 4800
 Wire Wire Line
 	1800 4900 1600 4900
 Wire Wire Line
@@ -418,12 +416,12 @@ $EndComp
 $Comp
 L vusb:VUSB #PWR0112
 U 1 1 5EC6014A
-P 2050 1850
-F 0 "#PWR0112" H 2060 1850 20  0001 C CNN
-F 1 "VUSB" H 2050 1946 40  0000 C CNN
-F 2 "" H 2050 1850 60  0001 C CNN
-F 3 "" H 2050 1850 60  0001 C CNN
-	1    2050 1850
+P 1750 1850
+F 0 "#PWR0112" H 1760 1850 20  0001 C CNN
+F 1 "VUSB" H 1750 1946 40  0000 C CNN
+F 2 "" H 1750 1850 60  0001 C CNN
+F 3 "" H 1750 1850 60  0001 C CNN
+	1    1750 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -688,17 +686,17 @@ F 3 "~" H 6850 5600 50  0001 C CNN
 	2    6850 5600
 	-1   0    0    -1  
 $EndComp
-Text Label 7400 5200 2    50   ~ 0
-TX_AUX
 Text Label 7400 5600 2    50   ~ 0
+TX_AUX
+Text Label 7400 5200 2    50   ~ 0
 RX_AUX
-Text Label 6400 5100 0    50   ~ 0
-TX1
-Text Label 6400 5300 0    50   ~ 0
-TX2
 Text Label 6400 5500 0    50   ~ 0
-RX1
+TX1
 Text Label 6400 5700 0    50   ~ 0
+TX2
+Text Label 6400 5100 0    50   ~ 0
+RX1
+Text Label 6400 5300 0    50   ~ 0
 RX2
 Wire Wire Line
 	6400 5100 6650 5100
@@ -843,4 +841,6 @@ F 3 "http://www.nxp.com/documents/data_sheet/PCA9536.pdf" H 3700 2700 50  0001 C
 	1    3900 4400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1600 4800 1800 4800
 $EndSCHEMATC
