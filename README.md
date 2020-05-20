@@ -63,9 +63,17 @@ AUX (`J6`):
 - Min. Trace/Space: 6 mil
 - Min. Drill: 15 mil
 
-Approx. PCB manufactoring cost: ~€4.57 / 5 (excl. shipping cost, at [JLCPCB](https://jlcpcb.com/), estimated by [pcbshopper](https://pcbshopper.com/) on Wednesday May 20th 2020)
-
 Find the gerber files [here](gerber/cf-deck-carrier/).
+
+PCB manufactoring cost: ~€4.57 / 5 (excl. shipping cost, at [JLCPCB](https://jlcpcb.com/), estimated by [pcbshopper](https://pcbshopper.com/) on Wednesday May 20th 2020)
+
+### PCB with partial assembly
+SMT assembly files for JLCPCB: [here](assembly/jlcpcb/).
+
+- PCB manufactoring + (partial) assembly and component cost (basic parts: all `C`, `R`): ~€15.19 / 5 
+- PCB manufactoring + (partial) assembly and component cost (basic + extended parts: all `C`, `R`, `U`): ~€29.87 / 5 
+
+(excl. shipping cost, at [JLCPCB](https://jlcpcb.com/); Wednesday May 20th 2020)
 
 ## Assembly
 Recommended soldering order:
