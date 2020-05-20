@@ -33,6 +33,25 @@ AUX (`J6`):
 - The auxiliary UART is connected directly to either UART1 or UART2.
 
 ## Bill of materials
+| Ref          | Qnty | Value        | Cmp name                                               | Footprint |
+|--------------|------|--------------|--------------------------------------------------------|-----------|
+| C1,          | 1    | 1uF          | C                                                      | 0805      |
+| C2,          | 1    | 10nF         | C                                                      | 0805      |
+| C3,          | 1    | 4.7uF        | C                                                      | 0805      |
+| C4, C5,      | 2    | 0.1uF        | C                                                      | 0805      |
+| J1,          | 1    | PWR          | Molex PicoBlade 1x3 Horizontal Through-hole 53048-0310 |           |
+| J2,          | 1    | UART         | Molex PicoBlade 1x4 Horizontal Through-hole 53048-0410 |           |
+| J3,          | 1    | SPI          | Molex PicoBlade 1x3 Horizontal Through-hole 53048-0310 |           |
+| J4,          | 1    | I2C          | Molex PicoBlade 1x2 Horizontal Through-hole 53048-0210 |           |
+| J5,          | 1    | IO           | Molex PicoBlade 1x5 Horizontal Through-hole 53048-0510 |           |
+| J6,          | 1    | UART_AUX     | Molex PicoBlade 1x4 Horizontal Through-hole 53048-0410 |           |
+| P1,          | 1    | CF_EXP_LEFT  | BF090-10-X-B2                                          |           |
+| P2,          | 1    | CF_EXP_RIGHT | BF090-10-X-B2                                          |           |
+| R1, R2, R3,  | 3    | 2.2k         | R                                                      | 0805      |
+| SW1,         | 1    | CAS-220      | CAS-220B1                                              |           |
+| U1,          | 1    | LP2985-3.0   | LP2985-3.0                                             | SOT-23-5  |
+| U2,          | 1    | PCA9536D     | PCA9536D                                               | SOIC-8    |
+| U3,          | 1    | DS2484       | DS2484                                                 | SOIC-8    |
 
 ## Ordering
 
