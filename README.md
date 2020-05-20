@@ -35,27 +35,35 @@ AUX (`J6`):
 - The auxiliary UART is connected directly to either UART1 or UART2.
 
 ## Bill of materials
-| Ref          | Qnty | Value        | Cmp name                                               | Footprint | Approx. total cost |
-|--------------|------|--------------|--------------------------------------------------------|-----------|--------------------|
-| C1,          | 1    | 1uF          | C                                                      | 0805      | € 0.04             |
-| C2,          | 1    | 10nF         | C                                                      | 0805      | € 0.04             |
-| C3,          | 1    | 4.7uF        | C                                                      | 0805      | € 0.04             |
-| C4, C5,      | 2    | 0.1uF        | C                                                      | 0805      | € 0.08             |
-| J1,          | 1    | PWR          | Molex PicoBlade 1x3 Horizontal Through-hole 53048-0310 |           | € 0.31             |
-| J2,          | 1    | UART         | Molex PicoBlade 1x4 Horizontal Through-hole 53048-0410 |           | € 0.37             |
-| J3,          | 1    | SPI          | Molex PicoBlade 1x3 Horizontal Through-hole 53048-0310 |           | € 0.31             |
-| J4,          | 1    | I2C          | Molex PicoBlade 1x2 Horizontal Through-hole 53048-0210 |           | € 0.25             |
-| J5,          | 1    | IO           | Molex PicoBlade 1x5 Horizontal Through-hole 53048-0510 |           | € 0.38             |
-| J6,          | 1    | UART_AUX     | Molex PicoBlade 1x4 Horizontal Through-hole 53048-0410 |           | € 0.37             |
-| P1,          | 1    | CF_EXP_LEFT  | BF090-10-X-B2                                          |           | € 1.32             |
-| P2,          | 1    | CF_EXP_RIGHT | BF090-10-X-B2                                          |           | € 1.32             |
-| R1, R2, R3,  | 3    | 2.2k         | R                                                      | 0805      | € 0.24             |
-| SW1,         | 1    | CAS-220      | CAS-220B1                                              |           | € 1.84             |
-| U1,          | 1    | LP2985-3.0   | LP2985-3.0                                             | SOT-23-5  | € 0.74             |
-| U2,          | 1    | PCA9536D     | PCA9536D                                               | SOIC-8    | € 1.43             |
-| U3,          | 1    | DS2484       | DS2484                                                 | SOIC-8    | € 0.67             |
-|              |      |              |                                                        |           |--------------------|
-|              |      |              |                                                        |           | € 9.75             |
+| Ref          | Qnty | Value        | Cmp name                                               | Footprint | Approx. total cost / 5 |
+|--------------|------|--------------|--------------------------------------------------------|-----------|------------------------|
+| C1,          | 1    | 1uF          | C                                                      | 0805      | € 0.20                 |
+| C2,          | 1    | 10nF         | C                                                      | 0805      | € 0.20                 |
+| C3,          | 1    | 4.7uF        | C                                                      | 0805      | € 0.20                 |
+| C4, C5,      | 2    | 0.1uF        | C                                                      | 0805      | € 0.40                 |
+| R1, R2, R3,  | 3    | 2.2k         | R                                                      | 0805      | € 1.20                 |
+|              |      |              |                                                        |           |------------------------|
+| Subtotal     |      |              |                                                        |           | € 2.20                 |
+|              |      |              |                                                        |           |------------------------|
+| U1,          | 1    | LP2985-3.0   | LP2985-3.0                                             | SOT-23-5  | € 3.70                 |
+| U2,          | 1    | PCA9536D     | PCA9536D                                               | SOIC-8    | € 7.15                 |
+| U3,          | 1    | DS2484       | DS2484                                                 | SOIC-8    | € 3.35                 |
+|              |      |              |                                                        |           |------------------------|
+| Subtotal     |      |              |                                                        |           | € 14.20                |
+|              |      |              |                                                        |           |------------------------|
+| J1,          | 1    | PWR          | Molex PicoBlade 1x3 Horizontal Through-hole 53048-0310 |           | € 1.55                 |
+| J2,          | 1    | UART         | Molex PicoBlade 1x4 Horizontal Through-hole 53048-0410 |           | € 1.85                 |
+| J3,          | 1    | SPI          | Molex PicoBlade 1x3 Horizontal Through-hole 53048-0310 |           | € 1.55                 |
+| J4,          | 1    | I2C          | Molex PicoBlade 1x2 Horizontal Through-hole 53048-0210 |           | € 1.25                 |
+| J5,          | 1    | IO           | Molex PicoBlade 1x5 Horizontal Through-hole 53048-0510 |           | € 1.90                 |
+| J6,          | 1    | UART_AUX     | Molex PicoBlade 1x4 Horizontal Through-hole 53048-0410 |           | € 1.85                 |
+| P1,          | 1    | CF_EXP_LEFT  | BF090-10-X-B2                                          |           | € 6.60                 |
+| P2,          | 1    | CF_EXP_RIGHT | BF090-10-X-B2                                          |           | € 6.60                 |
+| SW1,         | 1    | CAS-220      | CAS-220B1                                              |           | € 9.20                 |
+|              |      |              |                                                        |           |------------------------|
+| Subtotal     |      |              |                                                        |           | € 32.35                |
+|              |      |              |                                                        |           |------------------------|
+| Total        |      |              |                                                        |           | € 48.75 / 5            |
 
 ## Ordering information
 ### PCB
