@@ -55,7 +55,14 @@ AUX (`J6`):
 | U2,          | 1    | PCA9536D     | PCA9536D                                               | SOIC-8    |
 | U3,          | 1    | DS2484       | DS2484                                                 | SOIC-8    |
 
-## Ordering
+## Ordering information
+### PCB
+- PCB size: 33x28mm
+- PCB layers: 4
+
+Approx. PCB manufactoring cost: ~€4.57 / 5 (excl. shipping cost, at JLCPCB.com, estimated by pcbshopper.com on Wednesday May 20th 2020)
+
+Find the gerber files [here](gerber/cf-deck-carrier/).
 
 ## Assembly
 Recommended soldering order:
