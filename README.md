@@ -3,6 +3,8 @@ Rev 0.1A
 
 <img src="doc/cf-deck-carrier-front.png" alt="Front" height="400"/>
 
+Schematic: [here](cf-deck-carrier.pdf)
+
 This carrier board lets the Crazyflie 2 decks by [Bitcraze AB ](https://www.bitcraze.io/) be carried by other drones. The board functions similarly to a breakout board but with additional functions. The board is originally designed for the Eachine Trashcan, but may also be useful for other drones.
 
 Nearly all of the features on this carrier board are optional, unused components can be left out to save weight and assembly time. Refer to the *optional features* section below to check which components should be installed for your application.
@@ -10,6 +12,8 @@ Nearly all of the features on this carrier board are optional, unused components
 
 ## Interface
 The carrier board should be connected to an autopilot using the connectors `J1` to `J5`. The connectors are grouped by function. In nearly all cases the board can be connected directly to the corresponding autopilot pins.
+
+<img src="doc/cf-deck-carrier-back.png" alt="Pinouts" height="400"/>
 
 PWR (`J1`):
 - VCOM provides power to this board and the decks. VCOM does not need to be regulated.
