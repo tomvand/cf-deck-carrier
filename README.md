@@ -5,6 +5,8 @@ Rev 0.1A
 
 Schematic: [here](cf-deck-carrier.pdf)
 
+Gerbers: [here](gerber/cf-deck-carrier/)
+
 This carrier board lets the Crazyflie 2 decks by [Bitcraze AB ](https://www.bitcraze.io/) be carried by other drones. The board functions similarly to a breakout board but with additional functions. The board is originally designed for the Eachine Trashcan, but may also be useful for other drones.
 
 Nearly all of the features on this carrier board are optional, unused components can be left out to save weight and assembly time. Refer to the *optional features* section below to check which components should be installed for your application.
