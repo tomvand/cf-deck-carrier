@@ -59,8 +59,11 @@ AUX (`J6`):
 ### PCB
 - PCB size: 33x28mm
 - PCB layers: 4
+- Silkscreen: both sides
+- Min. Trace/Space: 6 mil
+- Min. Drill: 15 mil
 
-Approx. PCB manufactoring cost: ~€4.57 / 5 (excl. shipping cost, at JLCPCB.com, estimated by pcbshopper.com on Wednesday May 20th 2020)
+Approx. PCB manufactoring cost: ~€4.57 / 5 (excl. shipping cost, at [JLCPCB](https://jlcpcb.com/), estimated by [pcbshopper](https://pcbshopper.com/) on Wednesday May 20th 2020)
 
 Find the gerber files [here](gerber/cf-deck-carrier/).
 
