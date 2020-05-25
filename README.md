@@ -34,6 +34,7 @@ IO (`J5`):
 AUX (`J6`):
 - The auxiliary UART is connected directly to either UART1 or UART2.
 
+
 ## Bill of materials
 | Ref          | Qnty | Value        | Cmp name                                               | Footprint | Approx. total cost / 5 |
 |--------------|------|--------------|--------------------------------------------------------|-----------|------------------------|
@@ -69,6 +70,7 @@ AUX (`J6`):
 |              |      |              |                                                        |           |------------------------|
 | Total        |      |              |                                                        |           | € 53.32 / 5            |
 
+
 ## Ordering information
 ### PCB
 - PCB size: 33x28mm
@@ -82,12 +84,26 @@ Find the gerber files [here](gerber/cf-deck-carrier/).
 PCB manufactoring cost: ~€4.57 / 5 (excl. shipping cost, at [JLCPCB](https://jlcpcb.com/), estimated by [pcbshopper](https://pcbshopper.com/) on Wednesday May 20th 2020)
 
 ### PCB with partial assembly
-SMT assembly files for JLCPCB: [here](assembly/jlcpcb/).
+SMT assembly files for JLCPCB: [here](gerber/cf-deck-carrier/jlcpcb/).
 
-- PCB manufactoring + (partial) assembly and component cost (basic parts: all `C`, `R`): ~€15.19 / 5 
-- PCB manufactoring + (partial) assembly and component cost (basic + extended parts: all `C`, `R`, `U`): ~€29.87 / 5 
+#### PCB manufacturing + (partial) assembly and component cost (basic parts: all `C`, `R`)
+|                               | Cost / 5 |
+|-------------------------------|----------|
+| Assembly incl. component cost | € 15.19  |
+| Remaining components          | € 46.55  |
+|                               |----------|
+| Total                         | € 61.74  |
 
-(excl. shipping cost, at [JLCPCB](https://jlcpcb.com/); Wednesday May 20th 2020)
+#### PCB manufacturing + (partial) assembly and component cost (basic + extended parts: all `C`, `R`, `U`)
+|                               | Cost / 5 |
+|-------------------------------|----------|
+| Assembly incl. component cost | € 29.87  |
+| Remaining components          | € 32.35  |
+|                               |----------|
+| Total                         | € 62.22  |
+
+(excl. shipping cost, assembly at [JLCPCB](https://jlcpcb.com/); Wednesday May 20th 2020)
+
 
 ## Assembly
 Recommended soldering order:
@@ -96,6 +112,7 @@ Recommended soldering order:
 1. Switch (SW)
 1. Headers (P)
 1. Connectors (J)
+
 
 ## Optional features
 ### Molex Picoblade connectors
