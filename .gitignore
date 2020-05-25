@@ -26,5 +26,8 @@ fp-info-cache
 *.csv
 !assembly/**/*.csv
 
+# Exported footprint associations
+*.cmp
+
 # OpenOffice files
 .~*
