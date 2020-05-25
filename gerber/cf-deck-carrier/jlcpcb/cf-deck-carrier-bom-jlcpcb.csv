@@ -6,4 +6,4 @@ Comment,Designator,Footprint,LCSC Part Number,JLCPCB_Lib
 2.2k,"R1,R2,R3",0805,C17520,Basic
 LP2985-3.0,U1,SOT-23,C50088,Extended
 PCA9536D,U2,SOIC-8,C129522,Extended
-DS2484,U3,SOIC-8,C124886,Extended
+DS2484,U3,SOT-23,C124886,Extended
