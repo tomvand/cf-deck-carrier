@@ -1,4 +1,6 @@
 # Crazyflie 2 deck carrier
+[![CC BY 4.0][cc-by-shield]](https://creativecommons.org/licenses/by/4.0/)
+
 Rev 0.1A
 
 <img src="doc/cf-deck-carrier-front.png" alt="Front" height="400"/>
@@ -6,6 +8,10 @@ Rev 0.1A
 Schematic: [here](cf-deck-carrier.pdf)
 
 Gerbers: [here](gerber/cf-deck-carrier/)
+
+License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). \
+Additionally, if you use this design for scientific work, please add a footnote or reference to this webpage: \
+Tom van Dijk (2020). *Crazyflie 2 deck carrier*. Micro Air Vehicle Lab (MAVLab), TU Delft. Retrieved from https://github.com/tomvand/cf-deck-carrier
 
 This carrier board lets the Crazyflie 2 decks by [Bitcraze AB ](https://www.bitcraze.io/) be carried by other drones. The board functions similarly to a breakout board but with additional functions. The board is originally designed for the Eachine Trashcan, but may also be useful for other drones.
 
@@ -168,3 +174,5 @@ The AUX connector `J6` can be used to connect another board to the carrier deck.
 For permanent installations, switch `SW1` can be replaced by solder bridges between the relevant pads.
 
 <img src="doc/cf-deck-carrier-aux-sw-marking.png" alt="I2C-to-1-Wire bridge" height="200"/>
+
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
